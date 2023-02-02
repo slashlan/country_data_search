@@ -3,3 +3,4 @@ sentence_transformers==2.2.2
 streamlit==1.17.0
 psycopg2-binary==2.9.5
 pybase64==1.2.3
+openpyxl==3.1.0
