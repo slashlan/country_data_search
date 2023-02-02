@@ -62,7 +62,7 @@ def similarity_table(new_entry, instances_series, instances_links, embeddings):
 # st.image(image_title, width=200)
 # st.title('Country Source Finder')
 
-file_ = open("C:/Users/pistis/PycharmProjects/econ_search/Country source finder cropped.gif", "rb")
+file_ = open("/app/country_data_search/Country_source_finder_cropped.gif", "rb")
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
