@@ -83,7 +83,7 @@ with st.spinner(text='Loading..'):
     # model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
     # Load data and embeddings
-    df = pd.read_excel('C:/Users/pistis/PycharmProjects/econ_search/Economic_data_sources_2023.xlsx')
+    df = pd.read_excel('/app/country_data_search/Economic_data_sources_2023.xlsx')
 
     # Preprocess data for app
     sentence_list, title_list, link_list, embeddings = preprocess_text(df)
